@@ -7,9 +7,131 @@ Version: 1.0.4
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700");
 
-/* ------------------------------------------------------------------
-General Styles
------------------------------------------------------------------- */
+@font-face {
+	font-family: 'timestenbold';
+	src: url('../fonts/timesten-bold-webfont.woff2') format('woff2'),
+	url('../fonts/timesten-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.main-logo {
+	font-family: 'timestenbold';
+	text-transform: lowercase;
+	margin: 0;
+	padding: 0;
+	letter-spacing: -2px;
+}
+
+.main-logo span {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+.main-logo span.m {
+	line-height: 20px;
+	font-size: 50px;
+	animation-name: rotateLogo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	/*animation-timing-function: unset;*/
+}
+
+@keyframes rotateLogo {
+	/*25% {*/
+		/*transform: rotate(-90deg);*/
+	/*}*/
+	50% {
+		/*transform: rotate(-180deg);*/
+		color: white;
+	}
+	/*75% {*/
+		/*transform: rotate(-270deg);*/
+		/*font-size: 50px;*/
+	/*}*/
+	100% {
+		line-height: 32px;
+		transform: rotate(-90deg);
+		font-size: 36px;
+		color: black;
+	}
+}
+
+.main-logo span.a {
+	line-height: 20px;
+	font-size: 50px;
+	margin-left: -6px;
+	/*animation-duration: 1s;*/
+	/*animation-delay: 2s;*/
+	/*animation-iteration-count: infinite;*/
+}
+
+.main-logo span.s {
+	line-height: 20px;
+	font-size: 50px;
+	margin-left: -4px;
+	/*animation-delay: 2s;*/
+	/*animation-duration: 1s;*/
+	/*animation-iteration-count: infinite;*/
+}
+
+.logo-brush {
+	left: -100px;
+	position: relative;
+	font-weight: lighter;
+	font-size: 22px;
+	transform: rotate(-30deg);
+	animation-name: brushAnimated;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	animation-timing-function: unset;
+}
+.logo-brush i {
+	/*color: greenyellow;*/
+	opacity: 0;
+	vertical-align: bottom;
+	display: inline-block;
+	animation-name: justBrush;
+	animation-duration: 4s;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes brushAnimated {
+	80% {
+		left: 20px;
+	}
+	100% {
+		left: -5px;
+	}
+}
+
+@keyframes justBrush {
+	0%, 25% {
+		opacity: 0;
+	}
+	50%, 55% {
+		color: white;
+	}
+	70%, 80%, 90% {
+		opacity: 1;
+		color: black;
+	}
+	100% {
+		opacity: 0;
+	}
+	/*100% {*/
+		/*transform: rotateY(-90deg);*/
+	/*}*/
+}
+
+	/* ------------------------------------------------------------------
+    General Styles
+    ------------------------------------------------------------------ */
 
 body {
 	background: #fff;
@@ -17,6 +139,7 @@ body {
 	color: #777;
 	overflow-x: hidden;
 	-ms-overflow-style: scrollbar;
+	cursor: inherit !important;
 }
 
 img {
