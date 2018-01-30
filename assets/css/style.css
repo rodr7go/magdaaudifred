@@ -45,7 +45,7 @@ Version: 1.0.4
 	/*}*/
 	50% {
 		/*transform: rotate(-180deg);*/
-		color: white;
+		/*color: white;*/
 	}
 	/*75% {*/
 		/*transform: rotate(-270deg);*/
@@ -115,7 +115,7 @@ Version: 1.0.4
 		opacity: 0;
 	}
 	50%, 55% {
-		color: white;
+		/*color: white;*/
 	}
 	70%, 80%, 90% {
 		opacity: 1;
