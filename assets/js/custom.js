@@ -186,84 +186,114 @@
 			return false;
 		});
 
-		/* ---------------------------------------------- /*
-		 * Portfolio
-		/* ---------------------------------------------- */
+        $.ajax({
+            url: '/image-manager/public/categories',
+            success: function (html) {
+                $('#filters').append(html);
+            },
+            error: function () {
 
-		$('a', filters).on('click', function() {
-			var selector = $(this).attr('data-filter');
+            }
+        }).done(function () {
+            $('a', filters).on('click', function() {
+                var selector = $(this).attr('data-filter');
 
-			$('.current', filters).removeClass('current');
-			$(this).addClass('current');
+                $('.current', filters).removeClass('current');
+                $(this).addClass('current');
 
-			worksgrid.isotope({
-				filter: selector
+                worksgrid.isotope({
+                    filter: selector
+                });
+
+                return false;
+            });
+        });
+
+        $.ajax({
+            url: '/image-manager/public/images',
+            success: function (html) {
+                $('#aniimated-thumbnials').append(html);
+            },
+            error: function (response) {
+                console.log(response);
+            }
+        })
+		.done(function () {
+
+			/* ---------------------------------------------- /*
+			 * Portfolio
+			/* ---------------------------------------------- */
+
+			$(window).on('resize', function() {
+
+				var windowWidth    = Math.max($(window).width(), window.innerWidth),
+					itemWidht      = $('.grid-sizer').width(),
+					itemHeight     = Math.floor(itemWidht * 0.95),
+					itemTallHeight = itemHeight * 2;
+
+				if (windowWidth > 500) {
+					$('.work-item', worksgrid).each(function() {
+						if ($(this).hasClass('tall')) {
+							$(this).css({
+								height : itemTallHeight
+							});
+						} else if ($(this).hasClass('wide')) {
+							$(this).css({
+								height : itemHeight
+							});
+						} else if ($(this).hasClass('wide-tall')) {
+							$(this).css({
+								height : itemTallHeight
+							});
+						} else {
+							$(this).css({
+								height : itemHeight
+							});
+						}
+					});
+				} else {
+					$('.work-item', worksgrid).each(function() {
+						if ($(this).hasClass('tall')) {
+							$(this).css({
+								height : itemTallHeight
+							});
+						} else if ($(this).hasClass('wide')) {
+							$(this).css({
+								height : itemHeight / 2
+							});
+						} else if ($(this).hasClass('wide-tall')) {
+							$(this).css({
+								height : itemHeight
+							});
+						} else {
+							$(this).css({
+								height : itemHeight
+							});
+						}
+					});
+				}
+
+				worksgrid.imagesLoaded(function() {
+					worksgrid.isotope({
+						layoutMode: 'packery',
+						itemSelector: '.work-item',
+						transitionDuration: '0.3s',
+						packery: {
+							columnWidth: '.grid-sizer',
+						},
+					});
+				});
+
+			}).resize();
+
+			//------- light gallery -------//
+
+			$("#aniimated-thumbnials").lightGallery({
+				thumbnail:true
 			});
-
-			return false;
 		});
 
-		$(window).on('resize', function() {
 
-			var windowWidth    = Math.max($(window).width(), window.innerWidth),
-				itemWidht      = $('.grid-sizer').width(),
-				itemHeight     = Math.floor(itemWidht * 0.95),
-				itemTallHeight = itemHeight * 2;
-
-			if (windowWidth > 500) {
-				$('.work-item', worksgrid).each(function() {
-					if ($(this).hasClass('tall')) {
-						$(this).css({
-							height : itemTallHeight
-						});
-					} else if ($(this).hasClass('wide')) {
-						$(this).css({
-							height : itemHeight
-						});
-					} else if ($(this).hasClass('wide-tall')) {
-						$(this).css({
-							height : itemTallHeight
-						});
-					} else {
-						$(this).css({
-							height : itemHeight
-						});
-					}
-				});
-			} else {
-				$('.work-item', worksgrid).each(function() {
-					if ($(this).hasClass('tall')) {
-						$(this).css({
-							height : itemTallHeight
-						});
-					} else if ($(this).hasClass('wide')) {
-						$(this).css({
-							height : itemHeight / 2
-						});
-					} else if ($(this).hasClass('wide-tall')) {
-						$(this).css({
-							height : itemHeight
-						});
-					} else {
-						$(this).css({
-							height : itemHeight
-						});
-					}
-				});
-			}
-
-			worksgrid.imagesLoaded(function() {
-				worksgrid.isotope({
-					layoutMode: 'packery',
-					itemSelector: '.work-item',
-					transitionDuration: '0.3s',
-					packery: {
-						columnWidth: '.grid-sizer',
-					},
-				});
-			});
-
-		}).resize();
 
 		/* ---------------------------------------------- /*
 		 * Blog grid
@@ -543,12 +573,6 @@
 		$('a[href="#totop"]').click(function() {
 			$('html, body').animate({ scrollTop: 0 }, 'slow');
 			return false;
-		});
-
-		//------- light gallery -------//
-
-		$("#aniimated-thumbnials").lightGallery({
-			thumbnail:true
 		});
 
 		// END
