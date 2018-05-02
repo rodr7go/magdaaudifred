@@ -15,17 +15,4 @@
             </div>
         </a>
     </div>
-
-    <style>
-        .red-point {
-            width: 16px;
-            height: 16px;
-            background: red;
-            position: absolute;
-            right: 8px;
-            top: -5px;
-            border-radius: 50%;
-            z-index: 2;
-        }
-    </style>
 @endforeach
