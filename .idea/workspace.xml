@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ed4fee-84b6-4c14-9808-a47bcb24675a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/image-manager/public/vendor/tcg/voyager/assets/images/bg2.jpg" />
-      <change beforePath="$PROJECT_DIR$/.idea/magdaaudifred.iml" afterPath="$PROJECT_DIR$/.idea/magdaaudifred.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/image-manager/composer.lock" afterPath="$PROJECT_DIR$/image-manager/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/image-manager/config/voyager.php" afterPath="$PROJECT_DIR$/image-manager/config/voyager.php" />
-      <change beforePath="$PROJECT_DIR$/image-manager/public/vendor/tcg/voyager/assets/images/bg.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/image-manager/resources/views/images.blade.php" afterPath="$PROJECT_DIR$/image-manager/resources/views/images.blade.php" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,28 +20,44 @@
     <pharConfigPath>$PROJECT_DIR$/admin/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="voyager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+            <state relative-caret-position="297">
+              <caret line="181" column="40" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image-manager/resources/views/welcome.blade.php">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="-1974">
+              <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image-manager/resources/views/images.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
-                <marker date="1517966805004" expanded="true" signature="30:50" ph="..." />
-                <marker date="1517966805004" expanded="true" signature="1760:1779" ph="..." />
-                <marker date="1517966805004" expanded="true" signature="1888:1902" ph="..." />
-                <marker date="1517966805004" expanded="true" signature="1976:1992" ph="..." />
-                <marker date="1517966805004" expanded="true" signature="2041:2060" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="10:27" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="57:81" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="153:167" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="188:202" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="219:233" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="312:1077" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="393:407" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="418:432" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="527:541" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="592:616" ph="..." />
+                <marker date="1525240521106" expanded="true" signature="646:660" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,8 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>home</find>
-      <find>nav-</find>
       <find>navbar-light</find>
       <find>about us</find>
       <find>background-</find>
@@ -94,6 +104,8 @@
       <find>admin-voyager</find>
       <find>Admin -</find>
       <find>Welcome to Voyager. The Missing Admin for Laravel</find>
+      <find>magda</find>
+      <find>works-grid</find>
     </findStrings>
     <replaceStrings>
       <replace>Home</replace>
@@ -123,15 +135,15 @@
         <option value="$PROJECT_DIR$/admin/.htaccess" />
         <option value="$PROJECT_DIR$/admin/.env" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
-        <option value="$PROJECT_DIR$/image-manager/.env" />
         <option value="$PROJECT_DIR$/image-manager/routes/web.php" />
         <option value="$PROJECT_DIR$/image-manager/.htaccess" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/image-manager/resources/views/images.blade.php" />
         <option value="$PROJECT_DIR$/image-manager/storage/framework/views/1595d1e5cefa608fb82b842c1e77f15de5ce6142.php" />
         <option value="$PROJECT_DIR$/image-manager/config/voyager.php" />
+        <option value="$PROJECT_DIR$/image-manager/.env" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/image-manager/resources/views/images.blade.php" />
       </list>
     </option>
   </component>
@@ -234,8 +246,8 @@
       <path value="$PROJECT_DIR$/admin/vendor/justinrainbow/json-schema" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1312" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1420" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
     <option name="height" value="784" />
@@ -258,8 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,97 +286,14 @@
               <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
               <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,19 +305,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\voyager\assets" />
-      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\vendor\tcg\voyager\assets\images" />
-      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager" />
-      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred" />
-      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\assets\plugins\light_gallery" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\voyager\assets\images" />
       <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\voyager\assets" />
       <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\assets\plugins\light_gallery" />
       <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred" />
       <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\site" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\voyager\assets" />
+      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager\public\vendor\tcg\voyager\assets\images" />
+      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\image-manager" />
+      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred" />
+      <recent name="C:\xampp\htdocs\GitRepos\magdaaudifred\assets\plugins\light_gallery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,16 +363,19 @@
       <workItem from="1518652258114" duration="1289000" />
       <workItem from="1518656464097" duration="6000" />
       <workItem from="1518717739867" duration="2140000" />
+      <workItem from="1519684475175" duration="596000" />
+      <workItem from="1525231719414" duration="6855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126071000" />
+    <option name="totallyTimeSpent" value="133522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1312" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="1420" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16717792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23619632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -479,7 +409,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/theme/assets/images/portfolio/img-1.jpg" />
     <entry file="file://$PROJECT_DIR$/pug/structure/layout.pug" />
     <entry file="file://$PROJECT_DIR$/components-4.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,13 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2478">
           <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/appear.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2919">
-          <caret line="147" column="7" lean-forward="false" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -639,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
-          <caret line="189" column="32" lean-forward="false" selection-start-line="189" selection-start-column="32" selection-end-line="189" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -657,13 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-manager/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -717,13 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/publishable/lang/en/voyager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="102" column="27" lean-forward="false" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/publishable/lang/en/voyager.php" />
     <entry file="file://$PROJECT_DIR$/image-manager/storage/framework/views/1595d1e5cefa608fb82b842c1e77f15de5ce6142.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -745,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="994" column="16" lean-forward="false" selection-start-line="994" selection-start-column="16" selection-end-line="994" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/public/vendor/tcg/voyager/assets/images/bg2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -761,24 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-manager/resources/views/images.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <marker date="1518116105821" expanded="true" signature="10:27" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="57:81" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="153:167" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="188:202" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="309:323" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="334:348" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="443:457" ph="..." />
-            <marker date="1518116105821" expanded="true" signature="508:532" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,22 +671,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/public/vendor/tcg/voyager/assets/images/bg1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="-781">
           <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <marker date="1517966805004" expanded="true" signature="30:50" ph="..." />
@@ -818,6 +702,58 @@
             <marker date="1517966805004" expanded="true" signature="1888:1902" ph="..." />
             <marker date="1517966805004" expanded="true" signature="1976:1992" ph="..." />
             <marker date="1517966805004" expanded="true" signature="2041:2060" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/appear.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2919">
+          <caret line="147" column="7" lean-forward="false" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="181" column="40" lean-forward="false" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1974">
+          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/resources/views/images.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1525240521106" expanded="true" signature="10:27" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="57:81" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="153:167" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="188:202" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="219:233" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="312:1077" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="393:407" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="418:432" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="527:541" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="592:616" ph="..." />
+            <marker date="1525240521106" expanded="true" signature="646:660" ph="..." />
           </folding>
         </state>
       </provider>
