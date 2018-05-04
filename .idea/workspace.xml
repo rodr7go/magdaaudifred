@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7ed4fee-84b6-4c14-9808-a47bcb24675a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/image-manager/database/seeds/PermissionsTableSeeder.php" afterPath="$PROJECT_DIR$/image-manager/database/seeds/PermissionsTableSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/image-manager/config/voyager.php" afterPath="$PROJECT_DIR$/image-manager/config/voyager.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,110 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="voyager.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="748" column="26" lean-forward="false" selection-start-line="748" selection-start-column="26" selection-end-line="748" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/resources/views/images.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="67" selection-end-column="10" />
-              <folding>
-                <marker date="1525464473873" expanded="true" signature="10:27" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="98:122" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="162:195" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="216:230" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="280:313" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="324:338" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="433:447" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="498:522" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="592:606" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="1587:1613" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="1676:1690" ph="..." />
-                <marker date="1525464473873" expanded="true" signature="3458:3538" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataRowsTableSeeder_backup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/database/seeds/DataRowsTableSeeder_backup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11109">
-              <caret line="530" column="64" lean-forward="false" selection-start-line="530" selection-start-column="64" selection-end-line="530" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voyager.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/src/Voyager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="242" column="5" lean-forward="false" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/publishable/database/seeds/PermissionsTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="e#7#38#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionsTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/database/seeds/PermissionsTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <element signature="e#7#38#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermissionRoleTableSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image-manager/database/seeds/PermissionRoleTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="164" column="16" lean-forward="false" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,7 +42,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>title</find>
       <find>width</find>
       <find>fa fa</find>
       <find>common</find>
@@ -165,13 +64,14 @@
       <find>#works-grid</find>
       <find>height: 1400px</find>
       <find>selector</find>
-      <find>works</find>
       <find>details</find>
       <find>user_role</find>
       <find>user_belongsto</find>
       <find>user_belongstom</find>
-      <find>works-grid</find>
       <find>browse_bread</find>
+      <find>works-grid</find>
+      <find>works</find>
+      <find>user</find>
     </findStrings>
     <replaceStrings>
       <replace>Home</replace>
@@ -206,7 +106,6 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/image-manager/storage/framework/views/1595d1e5cefa608fb82b842c1e77f15de5ce6142.php" />
-        <option value="$PROJECT_DIR$/image-manager/config/voyager.php" />
         <option value="$PROJECT_DIR$/image-manager/routes/web.php" />
         <option value="$PROJECT_DIR$/image-manager/resources/views/vendor/mail/html/layout.blade.php" />
         <option value="$PROJECT_DIR$/image-manager/resources/views/vendor/mail/mail.blade.php" />
@@ -222,6 +121,7 @@
         <option value="$PROJECT_DIR$/image-manager/vendor/tcg/voyager/resources/views/users/edit-add.blade.php" />
         <option value="$PROJECT_DIR$/image-manager/vendor/tcg/voyager/src/Voyager.php" />
         <option value="$PROJECT_DIR$/image-manager/database/seeds/PermissionsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/image-manager/config/voyager.php" />
       </list>
     </option>
   </component>
@@ -363,50 +263,7 @@
               <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
               <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magdaaudifred" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magdaaudifred" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image-manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tcg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -485,17 +342,18 @@
       <workItem from="1518717739867" duration="2140000" />
       <workItem from="1519684475175" duration="596000" />
       <workItem from="1525231719414" duration="7454000" />
-      <workItem from="1525299313441" duration="45932000" />
+      <workItem from="1525299313441" duration="48271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180053000" />
+    <option name="totallyTimeSpent" value="182392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1312" y="0" width="1318" height="775" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115975425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -538,13 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image-manager/resources/lang/en/voyager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="102" column="27" lean-forward="false" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/publishable/database/seeds/SettingsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -601,13 +452,6 @@
     <entry file="file://$PROJECT_DIR$/image-manager/public/vendor/tcg/voyager/assets/images/bg1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="56" column="31" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/resources/views/welcome.blade.php">
@@ -852,7 +696,7 @@
         <state relative-caret-position="483">
           <caret line="748" column="26" lean-forward="false" selection-start-line="748" selection-start-column="26" selection-end-line="748" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1004,7 +848,7 @@
         <state relative-caret-position="105">
           <caret line="5" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1019,10 +863,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/public/storage/users/February2018/mrwC6TLAa054fDvx1yQ7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image-manager/vendor/tcg/voyager/src/Voyager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="242" column="5" lean-forward="false" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-manager/config/voyager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
