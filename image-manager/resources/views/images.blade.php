@@ -1,8 +1,6 @@
 @foreach ($images as $image)
-        <div class="work-item {{ $image->category->name }} image-work-item" data-src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" data-sub-html="{{ $image->name }}">
-            @if($image->active)
-                <i class="fa fa-tag tag-price"></i>
-            @endif
+    <div class="item-container">
+        <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" data-sub-html="{{ $image->name }}">
             <a href="#">
                 <img src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" alt="{{ $image->name }}">
 
@@ -14,10 +12,12 @@
         </div>
 
         @if($image->active)
-            <button type="button" class="btn btn-sm m-t-20 btn-contact" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-sm btn-contact" data-toggle="modal" data-target="#exampleModal">
                 IM INTERESTED!
+                <i class="fa fa-tag"></i>
             </button>
         @endif
+    </div>
 @endforeach
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

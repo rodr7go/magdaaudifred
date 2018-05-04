@@ -1598,6 +1598,7 @@ Works grid
 .works-grid {
 	position: relative;
 	width: 100%;
+    height: auto !important;
 }
 
 .work-item,
@@ -2496,23 +2497,64 @@ Multi-columns-row
 .tag-price {
 	position: relative;
 	font-size: 30px;
-	color: lawngreen;
+	color: green;
 	left: 16px;
 	top: 0;
 	border-radius: 50%;
 	z-index: 2;
 }
 
-.btn-contact {
+.work-item a {
+	bottom: 50px;
+}
+
+.item-container {
 	position: relative;
-	width: 20%;
-	top: 180px;
-	margin-right: 3%;
-	margin-left: 2%;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.btn-contact {
 	background: transparent;
 	border: 1px solid;
+	margin-left: 15px;
+	margin-top: 30px;
 }
 
 .image-work-item {
 	height: 200px !important;
+	position: unset !important;
+}
+
+@media screen and (min-width: 501px) {
+	.item-container {
+		position: relative;
+		width: 49%;
+		height: 180px;
+		display: inline-block;
+	}
+
+	.image-work-item {
+		position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100%;
+	}
+
+	.btn-contact {
+		position: absolute;
+		top: 120px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.item-container {
+		width: 32%;
+	}
+}
+
+@media screen and (min-width: 993px) {
+	.item-container {
+		width: 24%;
+	}
 }
