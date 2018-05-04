@@ -1,8 +1,8 @@
 @foreach ($images as $image)
     {{--<div class="item-container">--}}
-    <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" data-sub-html="{{ $image->name }}">
+    <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="{{ asset('/storage/'.$image->path) }}" data-sub-html="{{ $image->name }}">
         <a href="#">
-            <img src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" alt="{{ $image->name }}">
+            <img src="{{ asset('/storage/'.$image->path) }}" alt="{{ $image->name }}">
 
             <div class="work-caption font-alt">
                 <h3 class="work-title">{{ $image->name }} </h3>
@@ -20,49 +20,49 @@
     {{--</div>--}}
 @endforeach
 
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Contact me!</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="{{ route('interested_mail') }}">
-                    <input type="hidden" value="{{ csrf_token() }}">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <label for="contact-form-name">Name:* </label>
-                            <input type="text" id="contact-form-name" name="name" class="form-control" required>
-                        </div>
+{{--<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">--}}
+    {{--<div class="modal-dialog" role="document">--}}
+        {{--<div class="modal-content">--}}
+            {{--<div class="modal-header">--}}
+                {{--<h3 class="modal-title" id="exampleModalLabel">Contact me!</h3>--}}
+                {{--<button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+                    {{--<span aria-hidden="true">&times;</span>--}}
+                {{--</button>--}}
+            {{--</div>--}}
+            {{--<div class="modal-body">--}}
+                {{--<form action="{{ route('interested_mail') }}">--}}
+                    {{--<input type="hidden" value="{{ csrf_token() }}">--}}
+                    {{--<div class="row">--}}
+                        {{--<div class="col-md-10">--}}
+                            {{--<label for="contact-form-name">Name:* </label>--}}
+                            {{--<input type="text" id="contact-form-name" name="name" class="form-control" required>--}}
+                        {{--</div>--}}
 
-                        <div class="col-md-10">
-                            <label for="contact-form-email">Email:* </label>
-                            <input type="email" id="contact-form-email" name="email" class="form-control" required>
-                        </div>
+                        {{--<div class="col-md-10">--}}
+                            {{--<label for="contact-form-email">Email:* </label>--}}
+                            {{--<input type="email" id="contact-form-email" name="email" class="form-control" required>--}}
+                        {{--</div>--}}
 
-                        <div class="col-md-10 form-group">
-                            <label for="contact-form-phone" class="control-label">Phone: </label>
-                            <input type="text" id="contact-form-phone" name="phone" class="form-control">
-                        </div>
+                        {{--<div class="col-md-10 form-group">--}}
+                            {{--<label for="contact-form-phone" class="control-label">Phone: </label>--}}
+                            {{--<input type="text" id="contact-form-phone" name="phone" class="form-control">--}}
+                        {{--</div>--}}
 
-                        <div class="col-md-10 form-group">
-                            <label for="contact-form-comments" class="control-label">Comments: </label>
-                            <textarea id="contact-form-comments" name="comments" class="form-control" rows="8"></textarea>
-                        </div>
-                    </div>
+                        {{--<div class="col-md-10 form-group">--}}
+                            {{--<label for="contact-form-comments" class="control-label">Comments: </label>--}}
+                            {{--<textarea id="contact-form-comments" name="comments" class="form-control" rows="8"></textarea>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
 
-                    <small class="text-danger">* required fields</small>
+                    {{--<small class="text-danger">* required fields</small>--}}
 
-                    <div class="modal-footer">
-                        <div class="text-left">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+                    {{--<div class="modal-footer">--}}
+                        {{--<div class="text-left">--}}
+                            {{--<button type="submit" class="btn btn-primary">Submit</button>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</div>--}}
