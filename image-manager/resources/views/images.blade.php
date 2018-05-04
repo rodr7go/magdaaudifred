@@ -1,23 +1,23 @@
 @foreach ($images as $image)
-    <div class="item-container">
-        <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" data-sub-html="{{ $image->name }}">
-            <a href="#">
-                <img src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" alt="{{ $image->name }}">
+    {{--<div class="item-container">--}}
+    <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" data-sub-html="{{ $image->name }}">
+        <a href="#">
+            <img src="http://magdaaudifred.local/image-manager/public/storage/{{ $image->path }}" alt="{{ $image->name }}">
 
-                <div class="work-caption font-alt">
-                    <h3 class="work-title">{{ $image->name }} </h3>
-                    <div class="work-descr">{{ $image->category->name }} </div>
-                </div>
-            </a>
-        </div>
-
-        @if($image->active)
-            <button type="button" class="btn btn-sm btn-contact" data-toggle="modal" data-target="#exampleModal">
-                IM INTERESTED!
-                <i class="fa fa-tag"></i>
-            </button>
-        @endif
+            <div class="work-caption font-alt">
+                <h3 class="work-title">{{ $image->name }} </h3>
+                <div class="work-descr">{{ $image->category->name }} </div>
+            </div>
+        </a>
     </div>
+
+        {{--@if($image->active)--}}
+            {{--<button type="button" class="btn btn-sm btn-contact" data-toggle="modal" data-target="#exampleModal">--}}
+                {{--IM INTERESTED!--}}
+                {{--<i class="fa fa-tag"></i>--}}
+            {{--</button>--}}
+        {{--@endif--}}
+    {{--</div>--}}
 @endforeach
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -31,7 +31,7 @@
             </div>
             <div class="modal-body">
                 <form action="{{ route('interested_mail') }}">
-                    {{ csrf_token() }}
+                    <input type="hidden" value="{{ csrf_token() }}">
                     <div class="row">
                         <div class="col-md-10">
                             <label for="contact-form-name">Name:* </label>

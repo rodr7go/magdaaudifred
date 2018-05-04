@@ -290,7 +290,7 @@
 
 			$("#aniimated-thumbnials").lightGallery({
 				thumbnail:true,
-				selector: '.work-item'
+				// selector: '.work-item'
 			});
 		});
 
