@@ -2493,13 +2493,26 @@ Multi-columns-row
 }
 
 /* custom styles */
-.red-point {
-	width: 16px;
-	height: 16px;
-	background: red;
-	position: absolute;
-	right: 8px;
-	top: -5px;
+.tag-price {
+	position: relative;
+	font-size: 30px;
+	color: lawngreen;
+	left: 16px;
+	top: 0;
 	border-radius: 50%;
 	z-index: 2;
+}
+
+.btn-contact {
+	position: relative;
+	width: 20%;
+	top: 180px;
+	margin-right: 3%;
+	margin-left: 2%;
+	background: transparent;
+	border: 1px solid;
+}
+
+.image-work-item {
+	height: 200px !important;
 }

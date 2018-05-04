@@ -289,7 +289,8 @@
 			//------- light gallery -------//
 
 			$("#aniimated-thumbnials").lightGallery({
-				thumbnail:true
+				thumbnail:true,
+				selector: '.work-item'
 			});
 		});
 

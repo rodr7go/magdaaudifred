@@ -30,3 +30,5 @@ Route::get('categories', function (){
 
     return view('categories', compact('categories'))->render();
 });
+
+Route::get('interested_mail', 'ContactController@mail')->name('interested_mail');
