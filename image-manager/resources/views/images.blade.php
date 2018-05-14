@@ -1,6 +1,9 @@
 @foreach ($images as $image)
     {{--<div class="item-container">--}}
     <div class="work-item {{ $image->category->name }} image-work-item col--12" data-src="{{ asset('/storage/'.$image->path) }}" data-sub-html="{{ $image->name }}">
+        @if($image->active)
+            <i class="fa fa-tag tag-price"></i>
+        @endif
         <a href="#">
             <img src="{{ asset('/storage/'.$image->path) }}" alt="{{ $image->name }}">
 
