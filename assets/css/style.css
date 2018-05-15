@@ -2558,3 +2558,7 @@ Multi-columns-row
 		/*width: 24%;*/
 	/*}*/
 /*}*/
+
+.main-image {
+	background-position: 50% -55px !important;
+}
